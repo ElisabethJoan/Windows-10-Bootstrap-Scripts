@@ -1,0 +1,1 @@
+Before running this script `run Set-ExecutionPolicy RemoteSigned` in an elevated PowerShell Terminal
