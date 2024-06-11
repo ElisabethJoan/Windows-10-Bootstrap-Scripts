@@ -1,4 +1,4 @@
-﻿$Packages = 'dotnet-5.0-runtime', 'ds4windows', 'brave', 'git-fork', 'adobereader', '7zip.install', 'notepadplusplus.install', 'vlc', 'git.install', 'python3', 'nodejs.install', 'python2', 'putty.install', 'vscode', 'winscp.install', 'discord', 'parsec', 'sharex', 'everything', 'teracopy', 'deluge', 't-clock', 'linkshellextension'
+﻿$Packages = '7zip.install', 'notepadplusplus.install', 'vlc', 'git.install', 'python3', 'nodejs.install', 'putty.install', 'vscode', 'winscp.install', 'discord', 'sharex', 'everything', 'teracopy', 't-clock', 'linkshellextension'
 
 Function InstallPackages {
     ForEach($Package in $Packages) 
