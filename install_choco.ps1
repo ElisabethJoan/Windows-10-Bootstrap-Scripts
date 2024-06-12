@@ -1,4 +1,4 @@
-﻿$Packages = '7zip.install', 'notepadplusplus.install', 'vlc', 'git.install', 'python3', 'nodejs.install', 'putty.install', 'vscode', 'winscp.install', 'discord', 'sharex', 'everything', 'teracopy', 't-clock', 'linkshellextension'
+﻿$Packages = '7zip.install', 'notepadplusplus.install', 'git.install', 'autohotkey', 'firefox' 'python', 'nodejs.install', 'putty.install', 'vscode', 'sharex', 'everything', 'teracopy', 't-clock', 'linkshellextension', 'powertoys'
 
 Function InstallPackages {
     ForEach($Package in $Packages) 
